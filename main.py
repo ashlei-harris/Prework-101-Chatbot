@@ -1,0 +1,4 @@
+print('Welcome to the pet adoption chatbot!')
+name = input('Plese enter your name: ')
+age = input('Plese enter your age: ')
+print('\n Hello', name, 'you are', age, 'years old!')
