@@ -29,24 +29,35 @@ def viewpets():
   if action == True:
     option_menu()
     selection()
+  else:
+   print(' \n Thank you and goodbye',name,'! Have a nice day!')
+
 def adopt():
   print('Adopt a pet')
   action = bool(input('\n Enter to return to main menu: '))
   if action == True:
     option_menu()
     selection()
+  else:
+   print(' \n Thank you and goodbye',name,'! Have a nice day!')
+
 def add():
   print('Add a pet')
   action = bool(input('\n Enter to return to main menu: '))
   if action == True:
     option_menu()
     selection()
+  else:
+   print(' \n Thank you and goodbye',name,'! Have a nice day!')
+
 def serach():
   print('Serach for pet')
   action = bool(input('\n Enter to return to main menu: '))
   if action == True:
     option_menu()
     selection()
+  else:
+   print(' \n Thank you and goodbye',name,'! Have a nice day!')
 
 print('Welcome to the pet adoption chatbot!')
 name = input('Please enter your name: ')
