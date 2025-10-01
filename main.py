@@ -1,30 +1,30 @@
 def option_menu():
   print('\n Please select an option')
-  print('1. View pets')
-  print('2. Adopt a pet')
-  print('3. Put a pet up for adoption')
-  print('4. Serach for a pet')
-  print('5. Exit menu')
+  print('1. ')
+  print('2. ')
+  print('3. ')
+  print('4. ')
+  print('5. ')
 
 def selection():
   option = int(input('\n Please enter the number for your option: '))
   if option == 1:
-    viewpets()
+    option1()
   elif option == 2:
-    adopt()
+    option2()
   elif option == 3:
-    add()
+    option3()
   elif option == 4:
-    serach()
+    option4()
   elif option == 5:
-    print(' \n Thank you and goodbye',name,'! Have a nice day!')
+    option5(' \n Thank you and goodbye',name,'! Have a nice day!')
   else:
     print('invalid option. Try again')
     option_menu()
     selection()
 
-def viewpets():
-  print('View pets')
+def option1():
+  print('1')
   action = bool(input('\n Enter to return to main menu: '))
   if action == True:
     option_menu()
@@ -32,8 +32,8 @@ def viewpets():
   else:
    print(' \n Thank you and goodbye',name,'! Have a nice day!')
 
-def adopt():
-  print('Adopt a pet')
+def option2():
+  print('2')
   action = bool(input('\n Enter to return to main menu: '))
   if action == True:
     option_menu()
@@ -41,8 +41,8 @@ def adopt():
   else:
    print(' \n Thank you and goodbye',name,'! Have a nice day!')
 
-def add():
-  print('Add a pet')
+def option3():
+  print('3')
   action = bool(input('\n Enter to return to main menu: '))
   if action == True:
     option_menu()
@@ -50,8 +50,8 @@ def add():
   else:
    print(' \n Thank you and goodbye',name,'! Have a nice day!')
 
-def serach():
-  print('Serach for pet')
+def option4():
+  print('4')
   action = bool(input('\n Enter to return to main menu: '))
   if action == True:
     option_menu()
@@ -59,7 +59,7 @@ def serach():
   else:
    print(' \n Thank you and goodbye',name,'! Have a nice day!')
 
-print('Welcome to the pet adoption chatbot!')
+print('Welcome to the chatbot!')
 name = input('Please enter your name: ')
 age = input('Please enter your age: ')
 print('\n Hello', name, 'you are', age, 'years old!')
