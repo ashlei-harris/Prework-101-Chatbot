@@ -138,6 +138,7 @@ def view():
 
 
 print('Welcome to the chatbot!')
+print('Welcome to the chatbot!')
 name = input('Please enter your name: ')
 age = input('Please enter your age: ')
 print('\n Hello', name, 'you are', age, 'years old!')
